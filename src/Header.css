@@ -1,0 +1,26 @@
+.header {
+height:4rem;
+display: flex;
+align-items: center;
+background-color: #132921;
+position: sticky;
+z-index: 100;
+top:0;
+}
+.logo {
+width: 10rem;
+object-fit: contain;
+margin: 0px 20px;
+margin-top: 18px;
+}
+.header_search{
+display: flex;
+flex: 1;
+align-items: center;
+border-radius: 24px;
+}
+.search_icon{
+    padding: 5px;
+    height: 22px;
+    background-color: #cd9042;
+}
